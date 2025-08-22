@@ -1,0 +1,19 @@
+#Discord
+DISCORD_TOKEN=your_discord_bot_token_here
+
+#Weather (OpenWeatherMap)
+OWM_API_KEY=your_openweather_api_key_here
+OWM_UNITS=metric  # metric, imperial, standard
+
+#LLM (Ollama)
+OLLAMA_MODEL=llama3.1:8b
+
+#Spotify (Web API OAuth)
+SPOTIFY_CLIENT_ID=your_spotify_client_id
+SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+SPOTIFY_REDIRECT_URI=http://127.0.0.1:8888/callback
+
+# Some libs read these names instead — mirror them:
+SPOTIPY_CLIENT_ID=${SPOTIFY_CLIENT_ID}
+SPOTIPY_CLIENT_SECRET=${SPOTIFY_CLIENT_SECRET}
+SPOTIPY_REDIRECT_URI=${SPOTIFY_REDIRECT_URI}
