@@ -1,0 +1,25 @@
+#Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+#Virtual environment
+.venv/
+
+#Secrets / env
+.env
+*.env
+
+#Caches / tokens
+spotify_cache.json
+*cache.json
+
+#Local DBs
+*.sqlite3
+
+#OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
